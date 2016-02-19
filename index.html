@@ -5,23 +5,42 @@
   <title>I♥Me4e</title>
   <link rel="stylesheet" href="style.css"> <!-- external css -->
   <style>
-    div#wrapper { color: #009189; margin: 0 auto; }
+    div#wrapper { color: #009189; margin-left: auto; margin-right: auto; width: 450px; }
 
-    div#header {}
-    div#header img { float: left; }
-    div#header p.l0v { font-size: 10pt; }
+    div#header { border: 1px solid transparent; /* leave it as is -> quick hack */ }
+    div#header img { float: left; margin-left: 158px; margin-top: 12px; }
+    div#header p.l0v { font-size: 30px; }
     
-    div#intro {  }
+    div#intro { clear: left; }
     div#intro pre {}
 
-    div#downloads {}
-    div#downloads a { text-decoration: none;  border-radius: 25px; padding: 10px; background: #009189; color: white; }
+    div#downloads { padding-bottom: 20px; }
+    div#downloads a, div#links a { text-decoration: none; border-radius: 25px; padding: 10px; margin: 5px; background: #009189; color: white; border: 1px solid transparent; }
+    div#downloads a:hover, div#links a:hover { background: white; color: #009189; border: 1px solid #009189; }
+    
+    /* as always, "hackin' around .." ;P */
+    /* div#downloads a:hover:before { content: " "; position: absolute; z-index: -1; top: -10px; left: -1px; right: 1px; bottom: 1px; border-radius: 25px; border: 25px solid #009189; } */
+    /* div#downloads a:hover:before { content: attr(title) " "; position: absolute; z-index: -1; left: -1px; top: -1px; border-radius: 25px; border: 25px solid #009189; color: transparent; } */
 
     div#Me4e {}
-    div#Me4e img {}
+    div#Me4e img { margin-left: 50px; }
 
-    div#footer {}
-    div#footer img { float: left; }
+    div#outro { clear: left; }
+    div#outro pre { text-align: center; }
+
+    div#links { padding-left: 70px; }
+    div#links a {} /*see div#downloads a*/
+    div#links a:hover {} /*see div#downloads a*/
+
+    div#openl0v { clear: left; margin-top: 20px; padding-top: 20px; padding-left: 150px; }
+    div#openl0v img { float: left; clear: none; }
+    div#openl0v img.thinMe4e {}
+    div#openl0v p.big { float: left; clear: none; width: 30px; text-align: center; margin-top: 10px; margin-left: -7px; font-weight: bold; font-size: 30px; }
+    div#openl0v img.openSource {}
+
+    div#footer { clear: left; }
+    div#footer img { float: left; margin-left: 100px; }
+    div#footer p { font-size: 20px; padding-top: 25px; }
   </style>
   <script src="script.js"></script> <!-- external js -->
   <script>
@@ -34,26 +53,56 @@
   <!-- header ( pixdMe4e + "I♥Me4e" ) -->
   <div id="header">
     <img src="pixdMe4e.PNG" align="" height="63.14" width="48">
-    <p class="l0v">I♥Me4e</p>
+    <p class="l0v">&nbsp;I♥Me4e</p>
   </div>
+
   <!-- intro paragraph -->
   <div id="intro">
     <pre>
 Hi there !
-The following links 'll allow you to download two apps:
-- desktop: to update Me4e's "brains"
+<!-- The following links 'll allow you to download two apps: -->
+Use the following links to get even more l0v from Me4e ;)
+- desktop: to update Me4e's "brain" & adjust settings <!-- the desktop app should have URL to latest firmware(s) additionally to installed one -->
 - companion: to extend the possible interactions with Me4e
+- schematic: to see how Me4e's "brain" is wired
+- firmware: to poke around Me4e's brain
     </pre>
   </div>
+
   <!-- download links -->
   <div id="downloads">
-    <a href="">Desktop App</a> <!-- Chrome Packaged App or Electron App -->
-    <a href="">Companion App</a> <!-- webapp ( or/and native apps ? ) -->
+    <a href="" title="Desktop App">Desktop App</a> <!-- Chrome Packaged App or Electron App -->
+    <a href="" title="Companion">Companion</a> <!-- webapp ( or/and native apps ? ) -->
+    <a href="" title="Schematic">Schematic</a> <!-- schematic -->
+    <a href="" title="Firmware">Firmware</a> <!-- firmware (nb: 'd be nice to have Me4e's version in the tag URL to know which firmware to link )-->
   </div>
+
   <!-- me4e image -->
   <div id="Me4e">
     <img src="Me4e.png" align="" height="473" width="355">
   </div>
+
+  <!-- outro paragraph -->
+  <div id="outro">
+    <pre>
+For even more infos on Me4e, also check these out !
+    </pre>
+  </div>
+
+  <!-- project links -->
+  <div id="links">
+    <a href="" title="Hackaday.io">Hackaday.io</a> <!-- Step by step tutorial -->
+    <a href="" title="123dCircuits">123dCircuits</a> <!-- online schematic -->
+    <a href="" title="Github">Github</a> <!-- software repo -->
+  </div>
+
+  <!-- open source + l0v -->
+  <div id="openl0v">
+    <img class="thinMe4e" src="thinMe4e.png" align="" height="50" width="50">
+    <p class="big">+</p>
+    <img class="openSource" src="opensource.png" align="" height="50" width="50">
+  </div>
+
   <!-- Me4e logo & copyright -->
   <div id="footer">
     <img src="label.png" align="" height="76" width="122">
