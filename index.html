@@ -39,7 +39,7 @@
     div#openl0v img.openSource {}
 
     div#footer { clear: left; }
-    div#footer img { float: left; margin-left: 100px; }
+    div#footer img { float: left; /*margin-left: 100px;*/margin-left: 50px; }
     div#footer p { font-size: 20px; padding-top: 25px; }
 
     div#secret {  display: none; }
@@ -90,8 +90,8 @@ Use the following links to get even more l0v from Me4e ;)
 
   <!-- download links -->
   <div id="downloads">
-    <a href="" title="Desktop App">Desktop App</a> <!-- Chrome Packaged App or Electron App -->
-    <a href="" title="Companion">Companion</a> <!-- webapp ( or/and native apps ? ) -->
+    <a href="https://raw.githubusercontent.com/stephaneAG/I-Me4e/master/app/Me4e.app" title="Desktop App">Desktop App</a> <!-- Chrome Packaged App or Electron App -->
+    <a href="https://raw.githubusercontent.com/stephaneAG/I-Me4e/master/companion/Me4e.app" title="Companion">Companion</a> <!-- webapp ( or/and native apps ? ) -->
     <a href="mE4E_schematic.png" title="Schematic">Schematic</a> <!-- schematic -->
     <a href="https://raw.githubusercontent.com/stephaneAG/I-Me4e/master/firmwares/v01a.js" title="Firmware">Firmware</a> <!-- firmware (nb: 'd be nice to have Me4e's version in the tag URL to know which firmware to link )-->
   </div>
@@ -125,7 +125,8 @@ For even more infos on Me4e, also check these out !
   <!-- Me4e logo & copyright -->
   <div id="footer">
     <img src="label.png" align="" height="76" width="122">
-    <p>© StephaneAG</p>
+    <!-- <p>© StephaneAG</p> -->
+    <p>with ♥ from StephaneAG</p>
   </div>
 
   <!-- secret message ( not for coders ;p ) -->
@@ -295,7 +296,7 @@ For even more infos on Me4e, also check these out !
 
   <script>
     updateFirmwareLink(); // updates the firmware link based on the version passed in the hash of the page's URL
-    sayYouLoveHer();
+    sayYouLoveHer(); // because you do :)
   </script>
 
 </body>
