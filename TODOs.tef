@@ -1,0 +1,6 @@
+LEARN TO DO / DO:
+
+- using node-serial-port in Electron app ( as an alternative to using it in a Chrome Packaged App )
+- running another process of Node inside Electron app ( sort of what I did with NodeJS process in Chrome Packaged App )
+- package Electron app & all its dependencies in a .app
+- (..)
