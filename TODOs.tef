@@ -1,0 +1,27 @@
+LEARN TO DO / DO:
+
+- using node-serial-port in Electron app ( as an alternative to using it in a Chrome Packaged App )
+=> DIGG:
+https://github.com/voodootikigod/node-serialport/issues/538#issuecomment-184251385
+http://meow.noopkat.com/using-node-serialport-in-an-electron-app/
+
+- running another process of Node inside Electron app ( sort of what I did with NodeJS process in Chrome Packaged App )
+- package Electron app & all its dependencies in a .app
+- (..)
+
+
+Also digg:
+https://scotch.io/tutorials/creating-desktop-applications-with-angularjs-and-github-electron
+https://www.fyears.org/2015/06/electron-as-gui-of-python-apps.html
+https://www.devcasts.io/p/building-desktop-applications-with-electron/
+https://www.youtube.com/watch?v=xPlRItKTIL0
+https://github.com/maxogden/electron-spawn
+http://docs.nwjs.io/en/v0.13.0-beta6/
+http://www.raymondcamden.com/2015/07/23/some-initial-thoughts-on-building-desktop-apps-with-ionic-and-electron/
+http://www.mylifeforthecode.com/creating-a-windows-distribution-of-an-electron-app-using-squirrel/
+
+
+
+Also, on the iBeacon/Bluetooth/.. side of things:
+http://forum.espruino.com/conversations/1471/
+https://github.com/espruino/EspruinoDocs/blob/master/devices/Bluetooth%20BLE.md
