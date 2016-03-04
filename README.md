@@ -1,5 +1,8 @@
 <!-- <img src="pixdMe4e.PNG" align="" height="63.14" width="48"> -->
 # I♥Me4e <img src="pixdMe4e.PNG" align="" height="63.14" width="48">
+
+![demo](https://raw.github.com/stephaneAG/I-Me4e/master/Me4e_demo.gif)
+
 Me4e is a cute little [blind] bear that can't quite dance, but used to spread l0v ;p ( Interactive pluche programmed in js ).  
 You'll find all code related to Me4e hosted in this repo. 
 
