@@ -20,3 +20,11 @@ WIP: the following link points to the wip Desktop App ( is of no use for nearly 
 
 WIP: the following link(s) are used to debug the URL handling ( in the Desktop App )
 <a href="http://www.me4e.com/desktopApp?codeurl=https://raw.githubusercontent.com/stephaneAG/Espruino_tests/master/SingleButtonCombinationMulticodesLock/SingleButtonCombinationMulticodesLock_Espruino.js" class="codelink" title="Send to Desktop app"> <img src="https://raw.githubusercontent.com/stephaneAG/I-Me4e/master/thinMe4e.png" width="40" height="40"></a>
+
+<a href="http://www.me4e.com/desktopApp?code=https://raw.githubusercontent.com/stephaneAG/Espruino_tests/master/SingleButtonCombinationMulticodesLock/SingleButtonCombinationMulticodesLock_Espruino.js" class="codelink" title="Send to Desktop app"> <img src="https://raw.githubusercontent.com/stephaneAG/I-Me4e/master/thinMe4e.png" width="40" height="40"></a>
+
+<a href="http://www.me4e.com/desktopApp?codeurl=https://raw.githubusercontent.com/stephaneAG/Espruino_tests/master/SingleButtonCombinationMulticodesLock/SingleButtonCombinationMulticodesLock_Espruino.js" class="codelink" title="Send to Desktop app"> <img src="https://raw.githubusercontent.com/stephaneAG/I-Me4e/master/thinMe4e.png" width="40" height="40"></a>
+
+<a href="http://www.me4e.com/desktopApp?codeurl=https://raw.githubusercontent.com/stephaneAG/Espruino_tests/master/SingleButtonCombinationMulticodesLock/SingleButtonCombinationMulticodesLock_Espruino.js" class="codelink" title="Send to Desktop app"> <img src="https://raw.githubusercontent.com/stephaneAG/I-Me4e/master/thinMe4e.png" width="40" height="40"></a>
+
+<a href="http://www.me4e.com/desktopApp?configurl=https://raw.githubusercontent.com/stephaneAG/Espruino_tests/master/SingleButtonCombinationMulticodesLock/SingleButtonCombinationMulticodesLock_Espruino.js" class="codelink" title="Send to Desktop app"> <img src="https://raw.githubusercontent.com/stephaneAG/I-Me4e/master/thinMe4e.png" width="40" height="40"></a>
